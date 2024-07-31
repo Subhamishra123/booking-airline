@@ -1,9 +1,5 @@
 const express=require('express')
+const {InfoController} = require('../../controllers')
 const router=express.Router()
-router.get('/info',(request,response)=>{
-    return response.status(200).json({
-        "success":"true",
-        "path":"/api/v1/info"
-    })
-})
+router.get('/info',InfoController.info)
 module.exports=router
