@@ -1,0 +1,18 @@
+{
+  "name": "booking-airline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "httpstatuscode": "^0.0.2",
+    "nodemon": "^3.1.4"
+  }
+}
