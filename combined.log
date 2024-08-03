@@ -1,0 +1,7 @@
+2024-08-03 22:43:42 : error: something went wrong in createAnAirplane function ReferenceError: Cannot access 'data' before initialization
+2024-08-03 23:12:03 : error: something went wrong in create function SequelizeDatabaseError: Table 'flights.airplanes' doesn't exist
+2024-08-03 23:12:46 : error: something went wrong in create function SequelizeDatabaseError: Table 'flights.airplanes' doesn't exist
+2024-08-03 23:15:39 : error: something went wrong in createAnAirplane function ReferenceError: httpStatusCode is not defined
+2024-08-03 23:16:51 : error: something went wrong in createAnAirplane function TypeError: response.status is not a function
+2024-08-03 23:36:39 : error: something went wrong in createAnAirplane function TypeError: airplaneService.getAllplanes is not a function
+2024-08-03 23:45:56 : info: string
