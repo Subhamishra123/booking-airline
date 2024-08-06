@@ -1,5 +1,7 @@
 const { airplaneRepository } = require('../repositories')
 const logger =require('../config/logger-config')
+const AppError = require('../utils/errors/AppError')
+const { httpStatusCode } = require('httpstatuscode')
 const repository = new airplaneRepository()
 async function createAirplane(data)
 {
@@ -8,7 +10,17 @@ async function createAirplane(data)
         return response
     } catch (error) {
         logger.error(`something went wrong in createAirplane function ${error}`)
-        throw error
+       // console.log(error.name)
+        let explanation = []
+        if(error.name==='SequelizeValidationError')
+        {
+            error.errors.forEach(err=>{
+                explanation.push(err.message)
+            })
+            console.log(explanation)
+            throw new AppError(explanation,httpStatusCode.BadRequest)
+        }
+        throw new AppError('Cannot create a new Airplane object',httpStatusCode.InternalServerError)
     }
 }
 

@@ -11,13 +11,13 @@ class CrudRepository
     async create(data)
     {
         // Create a new user
-        try {
+        // try {
             const response=await this.model.create(data)
             return response
-        } catch (error) {
-            logger.error(`something went wrong in create function ${error}`)
-            throw error
-        }
+        // } catch (error) {
+        //     logger.error(`something went wrong in create function ${error}`)
+        //     throw error
+        // }
     }
 
    async getAll()

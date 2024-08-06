@@ -5,3 +5,38 @@
 2024-08-03 23:16:51 : error: something went wrong in createAnAirplane function TypeError: response.status is not a function
 2024-08-03 23:36:39 : error: something went wrong in createAnAirplane function TypeError: airplaneService.getAllplanes is not a function
 2024-08-03 23:45:56 : info: string
+2024-08-05 23:22:21 : error: something went wrong in create function TypeError: this.model.creat is not a function
+2024-08-05 23:22:21 : error: something went wrong in createAirplane function TypeError: this.model.creat is not a function
+2024-08-05 23:22:21 : error: something went wrong in createAnAirplane function TypeError: this.model.creat is not a function
+2024-08-06 11:00:36 : error: something went wrong in createAirplane function TypeError: this.model.creat is not a function
+2024-08-06 11:00:36 : error: something went wrong in createAnAirplane function TypeError: this.model.creat is not a function
+2024-08-06 11:01:53 : error: something went wrong in createAirplane function TypeError: this.model.creat is not a function
+2024-08-06 11:01:53 : error: something went wrong in createAnAirplane function TypeError: this.model.creat is not a function
+2024-08-06 11:12:45 : error: something went wrong in createAirplane function TypeError: this.model.creat is not a function
+2024-08-06 11:12:45 : error: something went wrong in createAnAirplane function Error: Cannot create a new Airplane object
+2024-08-06 11:15:09 : error: something went wrong in createAirplane function TypeError: this.model.creat is not a function
+2024-08-06 11:15:09 : error: something went wrong in createAnAirplane function Error: Cannot create a new Airplane object
+2024-08-06 11:15:28 : error: something went wrong in createAirplane function SequelizeDatabaseError: Incorrect integer value: 'nkhk' for column 'capacity' at row 1
+2024-08-06 11:21:28 : error: something went wrong in createAirplane function SequelizeValidationError: Validation error: Validation max on capacity failed
+2024-08-06 11:40:08 : error: something went wrong in createAirplane function SequelizeValidationError: Validation error: Validation max on capacity failed
+2024-08-06 11:40:35 : error: something went wrong in createAirplane function SequelizeValidationError: Validation error: Validation max on capacity failed
+2024-08-06 11:40:35 : error: something went wrong in createAnAirplane function Error: Cannot create a new Airplane object
+2024-08-06 11:43:08 : error: something went wrong in createAirplane function SequelizeValidationError: Validation error: Validation max on capacity failed
+2024-08-06 11:43:08 : error: something went wrong in createAnAirplane function Error: Cannot create a new Airplane object
+2024-08-06 11:45:18 : error: something went wrong in createAirplane function SequelizeValidationError: Validation error: Validation isAlphanumeric on modelNumber failed,
+Validation error: Validation max on capacity failed
+2024-08-06 11:45:18 : error: something went wrong in createAnAirplane function Error: Cannot create a new Airplane object
+2024-08-06 11:47:29 : error: something went wrong in createAirplane function SequelizeValidationError: Validation error: Validation isAlphanumeric on modelNumber failed,
+Validation error: Validation max on capacity failed
+2024-08-06 11:47:29 : error: something went wrong in createAnAirplane function Error: Validation isAlphanumeric on modelNumber failed,Validation max on capacity failed
+2024-08-06 11:56:27 : error: something went wrong in createAirplane function SequelizeValidationError: Validation error: Validation isAlphanumeric on modelNumber failed,
+Validation error: Validation max on capacity failed
+2024-08-06 11:56:27 : error: something went wrong in createAnAirplane function Error: Validation isAlphanumeric on modelNumber failed,Validation max on capacity failed
+2024-08-06 11:56:33 : error: something went wrong in createAirplane function SequelizeValidationError: Validation error: Validation isAlphanumeric on modelNumber failed,
+Validation error: Validation max on capacity failed
+2024-08-06 11:56:33 : error: something went wrong in createAnAirplane function Error: Validation isAlphanumeric on modelNumber failed,Validation max on capacity failed
+2024-08-06 11:56:42 : error: something went wrong in createAirplane function SequelizeValidationError: Validation error: Validation isAlphanumeric on modelNumber failed,
+Validation error: Validation max on capacity failed
+2024-08-06 11:56:42 : error: something went wrong in createAnAirplane function Error: Validation isAlphanumeric on modelNumber failed,Validation max on capacity failed
+2024-08-06 11:56:53 : error: something went wrong in createAirplane function SequelizeValidationError: Validation error: Validation max on capacity failed
+2024-08-06 11:56:53 : error: something went wrong in createAnAirplane function Error: Validation max on capacity failed

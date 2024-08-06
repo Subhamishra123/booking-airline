@@ -1,25 +1,19 @@
 const {airplaneService}=require('../services')
 const logger =require('../config/logger-config')
 const { httpStatusCode } = require('httpstatuscode')
-
+const { ErrorResponse,SuccessResponse} = require('../utils/commons')
 async function createAnAirplane(request,response)
 {
     try {
         const data = await airplaneService.createAirplane(request.body)
-        return response.status(httpStatusCode.Created).json({
-            success:true,
-            message:"API is live",
-            error:{},
-            data:data
-        })
+        SuccessResponse.message="API is live"
+        SuccessResponse.data=data
+        return response.status(httpStatusCode.Created).json(SuccessResponse)
     } catch (error) {
         logger.error(`something went wrong in createAnAirplane function ${error}`)
-        return response.status(httpStatusCode.InternalServerError).json({
-            success:false,
-            message:"API is having problems",
-            error:error,
-            data:{}
-        })
+        ErrorResponse.message="API is having problems"
+        ErrorResponse.error=error
+        return response.status(error.statusCode).json(ErrorResponse)
     }
 }
 async function retreiveAllplanes(request,response)
