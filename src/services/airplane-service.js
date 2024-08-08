@@ -43,6 +43,10 @@ async function getAPlane(id)
         return response
     } catch (error) {
         logger.error(`something went wrong in getAPlane function ${error}`)
+        if(error.statusCode==httpStatusCode.NotFound)
+        {
+            throw new AppError("the airplane you requested is not present",httpStatusCode.NotFound)
+        }
         throw error
     }
 }
@@ -53,6 +57,10 @@ async function updateAPlane(id,plane) {
         return response
     } catch (error) {
         logger.error(`something went wrong in updateAPlane function ${error}`)
+        if(error.statusCode==httpStatusCode.NotFound)
+        {
+            throw new AppError("the airplane you requested is not present",httpStatusCode.NotFound)
+        }
         throw error
     }
 }
@@ -62,6 +70,10 @@ async function deleteAPlane(id) {
         return response
     } catch (error) {
         logger.error(`something went wrong in deleteAPlane function ${error}`)
+        if(error.statusCode==httpStatusCode.NotFound)
+            {
+                throw new AppError("the airplane you requested is not present",httpStatusCode.NotFound)
+            }
         throw error
     }
 }

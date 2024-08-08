@@ -40,3 +40,315 @@ Validation error: Validation max on capacity failed
 2024-08-06 11:56:42 : error: something went wrong in createAnAirplane function Error: Validation isAlphanumeric on modelNumber failed,Validation max on capacity failed
 2024-08-06 11:56:53 : error: something went wrong in createAirplane function SequelizeValidationError: Validation error: Validation max on capacity failed
 2024-08-06 11:56:53 : error: something went wrong in createAnAirplane function Error: Validation max on capacity failed
+2024-08-07 13:10:30 : error: something went wrong in get function Error: Not able to find airplane
+2024-08-07 13:10:30 : error: something went wrong in getAPlane function Error: Not able to find airplane
+2024-08-07 13:10:30 : error: something went wrong in retreiveAPlane function Error: the airplane you requested is not present
+2024-08-08 20:53:12 : error: something went wrong in createAnAirplane function TypeError: Cannot read properties of undefined (reading 'createCity')
+2024-08-08 21:06:54 : error: something went wrong in create A City function TypeError: Cannot read properties of undefined (reading 'createCity')
+2024-08-08 21:08:28 : error: something went wrong in create A City function TypeError: Cannot read properties of undefined (reading 'createCity')
+2024-08-08 21:10:38 : error: something went wrong in create A City function TypeError: Cannot read properties of undefined (reading 'createCity')
+2024-08-08 21:12:56 : info: inside createACity controller
+2024-08-08 21:13:46 : info: inside createACity controller
+2024-08-08 21:16:22 : info: inside createACity controller
+2024-08-08 21:17:09 : info: inside createACity controller
+2024-08-08 21:18:40 : info: inside createACity controller
+2024-08-08 21:21:17 : info: inside createACity controller
+2024-08-08 21:22:37 : info: inside createACity controller
+2024-08-08 21:22:37 : info: inside createCity service
+2024-08-08 21:22:37 : error: unable to create city TypeError: CityRepository.create is not a function
+2024-08-08 21:22:37 : error: something went wrong in create A City function Error: unable to create city TypeError: CityRepository.create is not a function
+2024-08-08 21:23:31 : info: inside createACity controller
+2024-08-08 21:23:31 : info: inside createCity service
+2024-08-08 21:23:31 : info: inside create function [object Object]
+2024-08-08 21:24:19 : info: inside createACity controller
+2024-08-08 21:24:19 : info: inside createCity service
+2024-08-08 21:24:19 : info: inside create function {"name":"bengaluru"}
+2024-08-08 21:24:27 : info: inside createACity controller
+2024-08-08 21:24:27 : info: inside createCity service
+2024-08-08 21:24:27 : info: inside create function {"name":"pune"}
+2024-08-08 21:24:32 : info: inside createACity controller
+2024-08-08 21:24:32 : info: inside createCity service
+2024-08-08 21:24:32 : info: inside create function {"name":"mumbai"}
+2024-08-08 21:25:55 : info: inside createACity controller
+2024-08-08 21:25:55 : info: inside createCity service
+2024-08-08 21:25:55 : info: inside create function {"name":"mumbai"}
+2024-08-08 21:25:55 : error: unable to create city SequelizeUniqueConstraintError: Validation error
+2024-08-08 21:25:55 : error: something went wrong in create A City function Error: unable to create city SequelizeUniqueConstraintError: Validation error
+2024-08-08 21:26:38 : info: inside createACity controller
+2024-08-08 21:26:38 : info: inside createCity service
+2024-08-08 21:26:38 : info: inside create function {"name":"mumbai"}
+2024-08-08 21:26:38 : error: unable to create city SequelizeUniqueConstraintError: Validation error
+2024-08-08 21:26:38 : error: something went wrong in create A City function Error: unable to create city SequelizeUniqueConstraintError: Validation error
+2024-08-08 21:27:00 : info: inside createACity controller
+2024-08-08 21:27:00 : info: inside createCity service
+2024-08-08 21:27:00 : info: inside create function {"name":"mumbai"}
+2024-08-08 21:27:00 : error: unable to create city SequelizeUniqueConstraintError: Validation error
+2024-08-08 21:27:00 : error: something went wrong in create A City function Error: unable to create city SequelizeUniqueConstraintError: Validation error
+2024-08-08 21:31:57 : info: inside createACity controller
+2024-08-08 21:31:57 : info: inside createCity service
+2024-08-08 21:31:57 : info: inside create function {"name":"mumbai"}
+2024-08-08 21:31:58 : error: unable to create city SequelizeUniqueConstraintError: Validation error
+2024-08-08 21:33:43 : info: inside createACity controller
+2024-08-08 21:33:43 : info: inside createCity service
+2024-08-08 21:33:43 : info: inside create function {"name":"mumbai"}
+2024-08-08 21:33:43 : error: unable to create city SequelizeUniqueConstraintError: Validation error
+2024-08-08 21:33:43 : info: inside CityService.createCity(request.body)
+2024-08-08 21:34:45 : info: inside createACity controller
+2024-08-08 21:34:45 : info: inside createCity service
+2024-08-08 21:34:45 : info: inside create function {"name":"mumbai"}
+2024-08-08 21:34:46 : error: unable to create city SequelizeUniqueConstraintError: Validation error
+2024-08-08 21:34:46 : error: something went wrong in create A City function Error: name must be unique
+2024-08-08 21:42:13 : info: inside CityService.createCity(request.body)
+2024-08-08 21:49:55 : info: inside CityService.createCity(request.body)
+2024-08-08 21:49:55 : info: inside createCity service
+2024-08-08 21:49:55 : error: unable to create city SequelizeUniqueConstraintError: Validation error
+2024-08-08 21:49:55 : error: something went wrong in create A City function Error: name must be unique
+2024-08-08 21:50:19 : info: inside CityService.createCity(request.body)
+2024-08-08 21:50:19 : info: inside createCity service
+2024-08-08 21:50:21 : info: inside CityService.createCity(request.body)
+2024-08-08 21:50:21 : info: inside createCity service
+2024-08-08 21:50:21 : error: unable to create city SequelizeUniqueConstraintError: Validation error
+2024-08-08 21:50:21 : error: something went wrong in create A City function Error: name must be unique
+2024-08-08 21:52:49 : info: inside CityService.createCity(request.body)
+2024-08-08 21:52:49 : info: inside createCity service
+2024-08-08 23:51:41 : info: inside CityService.updateACity function
+2024-08-08 23:55:39 : info: inside CityController.updateACity function
+2024-08-08 23:55:39 : info: inside Cityservice.updateCity
+2024-08-08 23:55:39 : info: [object SequelizeInstance:City]
+2024-08-08 23:57:54 : info: inside CityController.updateACity function
+2024-08-08 23:57:54 : info: inside Cityservice.updateCity
+2024-08-08 23:57:54 : info: [object SequelizeInstance:City]
+2024-08-08 23:58:51 : info: inside CityController.updateACity function
+2024-08-08 23:58:51 : info: inside Cityservice.updateCity
+2024-08-08 23:58:52 : info: {"id":14,"name":"indore","createdAt":"2024-08-08T16:22:49.000Z","updatedAt":"2024-08-08T18:28:51.000Z"}
+2024-08-08 23:59:42 : info: inside CityController.updateACity function
+2024-08-08 23:59:42 : info: inside Cityservice.updateCity
+2024-08-08 23:59:42 : error: something went wrong in update function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-08 23:59:42 : error: something went wrong in update city function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-08 23:59:42 : error: something went wrong in update a city function Error: the city you requested is not present
+2024-08-09 00:01:21 : info: inside CityController.updateACity function
+2024-08-09 00:01:21 : info: inside Cityservice.updateCity
+2024-08-09 00:01:21 : error: something went wrong in update function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:01:21 : error: something went wrong in update a city function Error: the city you requested is not present
+2024-08-09 00:06:46 : info: inside CityController.updateACity function
+2024-08-09 00:06:46 : info: inside Cityservice.updateCity
+2024-08-09 00:06:47 : error: something went wrong in update function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:06:47 : error: something went wrong in update city function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:06:47 : error: something went wrong in update a city function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:09:48 : info: inside CityController.updateACity function
+2024-08-09 00:09:48 : info: inside Cityservice.updateCity
+2024-08-09 00:09:48 : error: something went wrong in update function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:09:48 : error: something went wrong in update city function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:09:48 : error: something went wrong in update a city function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:10:47 : info: inside CityController.updateACity function
+2024-08-09 00:10:47 : info: inside Cityservice.updateCity
+2024-08-09 00:10:48 : error: something went wrong in update function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:10:48 : error: something went wrong in update city function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:10:48 : error: something went wrong in update a city function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:12:53 : info: inside CityController.updateACity function
+2024-08-09 00:12:53 : info: inside Cityservice.updateCity
+2024-08-09 00:12:53 : error: something went wrong in update function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:12:53 : error: something went wrong in update city function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:12:53 : error: something went wrong in update a city function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:14:30 : info: inside CityController.updateACity function
+2024-08-09 00:14:30 : info: inside Cityservice.updateCity
+2024-08-09 00:14:30 : error: something went wrong in update function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:14:30 : error: something went wrong in update a city function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:15:15 : info: inside CityController.updateACity function
+2024-08-09 00:15:15 : info: inside Cityservice.updateCity
+2024-08-09 00:15:15 : error: something went wrong in update function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:15:15 : error: something went wrong in update a city function Error: Not able to find class City extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+2024-08-09 00:16:42 : info: inside CityController.updateACity function
+2024-08-09 00:16:42 : info: inside Cityservice.updateCity
+2024-08-09 00:16:42 : error: something went wrong in update function Error: Not able to find 
+2024-08-09 00:16:42 : error: something went wrong in update city function Error: Not able to find 
+2024-08-09 00:16:42 : error: something went wrong in update a city function Error: Not able to find  City
+2024-08-09 00:28:26 : info: inside CityController.deleteACity function
+2024-08-09 00:28:26 : info: inside Cityservice.deleteCity
+2024-08-09 00:29:19 : info: inside CityController.deleteACity function
+2024-08-09 00:29:19 : info: inside Cityservice.deleteCity
+2024-08-09 00:30:28 : info: inside CityController.deleteACity function
+2024-08-09 00:30:28 : info: inside Cityservice.deleteCity
+2024-08-09 00:30:57 : info: inside CityController.deleteACity function
+2024-08-09 00:30:57 : info: inside Cityservice.deleteCity
+2024-08-09 00:30:57 : error: something went wrong in delete function Error: Not able to find 
+2024-08-09 00:30:57 : error: something went wrong in update city function Error: Not able to find 
+2024-08-09 00:30:57 : error: something went wrong in delete a city function Error: Not able to find  City
+2024-08-09 00:31:21 : info: inside CityController.deleteACity function
+2024-08-09 00:31:21 : info: inside Cityservice.deleteCity
+2024-08-09 00:31:21 : error: something went wrong in delete function Error: Not able to find 
+2024-08-09 00:31:21 : error: something went wrong in update city function Error: Not able to find 
+2024-08-09 00:31:21 : error: something went wrong in delete a city function Error: Not able to find  City
+2024-08-09 00:32:48 : info: inside CityController.deleteACity function
+2024-08-09 00:32:48 : info: inside Cityservice.deleteCity

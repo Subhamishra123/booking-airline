@@ -1,15 +1,21 @@
 const { where } = require('sequelize')
 const logger =require('../config/logger-config')
+const AppError = require('../utils/errors/AppError')
+const { httpStatusCode } = require('httpstatuscode')
 
 class CrudRepository
 {
     constructor(model)
     {
         this.model=model
+       
     }
 
     async create(data)
     {
+
+
+       // logger.info(`inside create function ${JSON.stringify(data)}`)
         // Create a new user
         // try {
             const response=await this.model.create(data)
@@ -35,6 +41,10 @@ class CrudRepository
     {
         try {
             const response=await this.model.findByPk(primaryKey)
+            if(!response)
+            {
+                throw new AppError(`Not able to find ${this.model}`,httpStatusCode.NotFound)
+            }
             return response
         } catch (error) {
             logger.error(`something went wrong in get function ${error}`)
@@ -46,7 +56,13 @@ class CrudRepository
     {
         try {
             const response = await this.model.findByPk(key)
-            if(response)
+           // console.log(response)
+            if(response==null)
+            {
+                
+                 throw new AppError(`Not able to find `,httpStatusCode.NotFound)
+            }
+            else
             {
                 await this.model.update(
                     data,
@@ -77,8 +93,12 @@ class CrudRepository
     async delete(key)
     {
         try {
-            const response = this.model.findByPk(key)
-            if(response)
+            const response = await this.model.findByPk(key)
+            if(!response)
+            {
+                throw new AppError(`Not able to find `,httpStatusCode.NotFound)
+            }
+           else
             {
                 this.model.destroy({
                     where:{

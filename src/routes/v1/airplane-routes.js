@@ -5,6 +5,6 @@ const { AirplaneController } = require('../../controllers')
 airplaneRouter.post('/',AirplaneMiddleware.validateCreateRequest,AirplaneController.createAnAirplane)
 airplaneRouter.get('/',AirplaneController.retreiveAllplanes)
 airplaneRouter.get('/:id',AirplaneController.retreiveAPlane)
-airplaneRouter.put('/:id',AirplaneController.updatePlane)
+airplaneRouter.patch('/:id',AirplaneController.updatePlane)
 airplaneRouter.delete('/:id',AirplaneController.deletePlane)
 module.exports=airplaneRouter
