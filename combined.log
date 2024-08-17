@@ -552,3 +552,19 @@ Validation error: Validation max on capacity failed
 2024-08-17 22:14:29 : error: something went wrong in getAirport function Error: Not able to find 
 2024-08-17 22:15:21 : info: inside getAllAirports(-)
 2024-08-17 22:17:01 : info: inside updateAirport(-)
+2024-08-17 23:44:12 : info: inside airport-service
+2024-08-17 23:44:12 : info: inside flight-service
+2024-08-17 23:44:12 : info: inside airplane controller
+2024-08-17 23:44:12 : info: inside flight controller
+2024-08-17 23:44:54 : info: inside airport-service
+2024-08-17 23:44:54 : info: inside flight-service
+2024-08-17 23:44:54 : info: inside airplane controller
+2024-08-17 23:44:54 : info: inside flight controller
+2024-08-17 23:45:45 : info: inside airport-service
+2024-08-17 23:45:45 : info: inside flight-service
+2024-08-17 23:45:45 : info: inside airplane controller
+2024-08-17 23:45:45 : info: inside flight controller
+2024-08-17 23:52:20 : info: inside validateCreateFlightRequest
+2024-08-17 23:52:20 : info: {"flightNumber":"UK 808","airplaneId":3,"departureAirportId":"DEL","arrivalAirportId":"MUM","arrivalTime":"2024-08-17 04:30:00","departureTime":"2024-08-17 01:00:00","price":4500,"totalSeats":150}
+2024-08-17 23:52:20 : info: inside createFlight(-) controller
+2024-08-17 23:52:20 : info: inside createFlight(-)
