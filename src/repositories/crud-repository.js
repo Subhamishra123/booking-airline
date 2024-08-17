@@ -43,7 +43,7 @@ class CrudRepository
             const response=await this.model.findByPk(primaryKey)
             if(!response)
             {
-                throw new AppError(`Not able to find ${this.model}`,httpStatusCode.NotFound)
+                throw new AppError(`Not able to find `,httpStatusCode.NotFound)
             }
             return response
         } catch (error) {
