@@ -568,3 +568,251 @@ Validation error: Validation max on capacity failed
 2024-08-17 23:52:20 : info: {"flightNumber":"UK 808","airplaneId":3,"departureAirportId":"DEL","arrivalAirportId":"MUM","arrivalTime":"2024-08-17 04:30:00","departureTime":"2024-08-17 01:00:00","price":4500,"totalSeats":150}
 2024-08-17 23:52:20 : info: inside createFlight(-) controller
 2024-08-17 23:52:20 : info: inside createFlight(-)
+2024-08-18 20:01:54 : info: inside airport-service
+2024-08-18 20:01:54 : info: inside flight-service
+2024-08-18 20:01:54 : info: inside airplane controller
+2024-08-18 20:01:54 : info: inside flight controller
+2024-08-18 20:02:22 : info: inside validateCreateFlightRequest
+2024-08-18 20:02:22 : info: {"flightNumber":"UK 808","airplaneId":3,"departureAirportId":"DEL","arrivalAirportId":"MUM","arrivalTime":"2024-08-17 05:30:00","departureTime":"2024-08-17 02:00:00","price":4500,"totalSeats":150}
+2024-08-18 20:02:22 : info: inside createFlight(-) controller
+2024-08-18 20:02:22 : info: inside createFlight(-)
+2024-08-18 20:02:48 : info: inside validateCreateFlightRequest
+2024-08-18 20:02:48 : info: {"flightNumber":"UK 808","airplaneId":3,"departureAirportId":"MUM","arrivalAirportId":"DEL","arrivalTime":"2024-08-18 05:30:00","departureTime":"2024-08-18 02:00:00","price":5500,"totalSeats":120}
+2024-08-18 20:02:48 : info: inside createFlight(-) controller
+2024-08-18 20:02:48 : info: inside createFlight(-)
+2024-08-18 20:03:12 : info: inside validateCreateFlightRequest
+2024-08-18 20:03:12 : info: {"flightNumber":"UK 807","airplaneId":3,"departureAirportId":"MUM","arrivalAirportId":"DEL","arrivalTime":"2024-08-18 11:30:00","departureTime":"2024-08-18 08:00:00","price":6000,"totalSeats":120}
+2024-08-18 20:03:12 : info: inside createFlight(-) controller
+2024-08-18 20:03:12 : info: inside createFlight(-)
+2024-08-18 20:03:48 : info: inside validateCreateFlightRequest
+2024-08-18 20:03:48 : info: {"flightNumber":"UK 807","airplaneId":3,"departureAirportId":"BLR","arrivalAirportId":"DEL","arrivalTime":"2024-08-16 14:30:00","departureTime":"2024-08-16 10:00:00","price":3800,"totalSeats":121}
+2024-08-18 20:03:48 : info: inside createFlight(-) controller
+2024-08-18 20:03:48 : info: inside createFlight(-)
+2024-08-18 20:04:13 : info: inside validateCreateFlightRequest
+2024-08-18 20:04:13 : info: {"flightNumber":"UK 807","airplaneId":3,"departureAirportId":"BLR","arrivalAirportId":"DEL","arrivalTime":"2024-08-17 14:30:00","departureTime":"2024-08-17 10:00:00","price":4000,"totalSeats":135}
+2024-08-18 20:04:13 : info: inside createFlight(-) controller
+2024-08-18 20:04:13 : info: inside createFlight(-)
+2024-08-18 20:04:41 : info: inside validateCreateFlightRequest
+2024-08-18 20:04:41 : info: {"flightNumber":"UK 807","airplaneId":3,"departureAirportId":"DEL","arrivalAirportId":"BLR","arrivalTime":"2024-08-18 14:30:00","departureTime":"2024-08-18 10:00:00","price":6500,"totalSeats":150}
+2024-08-18 20:04:41 : info: inside createFlight(-) controller
+2024-08-18 20:04:41 : info: inside createFlight(-)
+2024-08-18 20:05:44 : info: inside validateCreateFlightRequest
+2024-08-18 20:05:44 : info: {"flightNumber":"UK 807","airplaneId":3,"departureAirportId":"DEL","arrivalAirportId":"BLR","arrivalTime":"2024-08-18 18:30:00","departureTime":"2024-08-18 14:00:00","price":7000,"totalSeats":100}
+2024-08-18 20:05:44 : info: inside createFlight(-) controller
+2024-08-18 20:05:44 : info: inside createFlight(-)
+2024-08-18 20:07:29 : info: inside validateCreateFlightRequest
+2024-08-18 20:07:29 : info: {"flightNumber":"UK 807","airplaneId":5,"departureAirportId":"DEL","arrivalAirportId":"MUM","arrivalTime":"2024-08-18 18:30:00","departureTime":"2024-08-18 14:00:00","price":7000,"totalSeats":100}
+2024-08-18 20:07:29 : info: inside createFlight(-) controller
+2024-08-18 20:07:29 : info: inside createFlight(-)
+2024-08-18 20:07:49 : info: inside validateCreateFlightRequest
+2024-08-18 20:07:49 : info: {"flightNumber":"UK 807","airplaneId":5,"departureAirportId":"DEL","arrivalAirportId":"MUM","arrivalTime":"2024-08-16 18:30:00","departureTime":"2024-08-16 14:00:00","price":6000,"totalSeats":120}
+2024-08-18 20:07:49 : info: inside createFlight(-) controller
+2024-08-18 20:07:49 : info: inside createFlight(-)
+2024-08-18 20:10:51 : info: inside airport-service
+2024-08-18 20:10:51 : info: inside flight-service
+2024-08-18 20:10:51 : info: inside airplane controller
+2024-08-18 20:10:51 : info: inside flight controller
+2024-08-18 20:12:04 : info: inside airport-service
+2024-08-18 20:12:04 : info: inside flight-service
+2024-08-18 20:12:04 : info: inside airplane controller
+2024-08-18 20:12:04 : info: inside flight controller
+2024-08-18 20:16:39 : info: inside airport-service
+2024-08-18 20:16:39 : info: inside flight-service
+2024-08-18 20:16:39 : info: inside airplane controller
+2024-08-18 20:16:39 : info: inside flight controller
+2024-08-18 20:17:26 : info: inside airport-service
+2024-08-18 20:17:26 : info: inside flight-service
+2024-08-18 20:17:26 : info: inside airplane controller
+2024-08-18 20:17:26 : info: inside flight controller
+2024-08-18 20:18:28 : info: inside airport-service
+2024-08-18 20:18:28 : info: inside flight-service
+2024-08-18 20:18:28 : info: inside airplane controller
+2024-08-18 20:18:28 : info: inside flight controller
+2024-08-18 20:19:23 : info: inside airport-service
+2024-08-18 20:19:23 : info: inside flight-service
+2024-08-18 20:19:23 : info: inside airplane controller
+2024-08-18 20:19:23 : info: inside flight controller
+2024-08-18 20:20:11 : info: inside airport-service
+2024-08-18 20:20:11 : info: inside flight-service
+2024-08-18 20:20:11 : info: inside airplane controller
+2024-08-18 20:20:11 : info: inside flight controller
+2024-08-18 20:21:21 : info: inside airport-service
+2024-08-18 20:21:21 : info: inside flight-service
+2024-08-18 20:21:21 : info: inside airplane controller
+2024-08-18 20:21:21 : info: inside flight controller
+2024-08-18 20:22:59 : info: inside airport-service
+2024-08-18 20:22:59 : info: inside flight-service
+2024-08-18 20:22:59 : info: inside airplane controller
+2024-08-18 20:22:59 : info: inside flight controller
+2024-08-18 20:43:22 : info: inside airport-service
+2024-08-18 20:43:22 : info: inside flight-service
+2024-08-18 20:43:22 : info: inside airplane controller
+2024-08-18 20:43:22 : info: inside flight controller
+2024-08-18 20:46:50 : info: inside airport-service
+2024-08-18 20:46:50 : info: inside flight-service
+2024-08-18 20:46:50 : info: inside airplane controller
+2024-08-18 20:46:50 : info: inside flight controller
+2024-08-18 20:50:35 : info: inside airport-service
+2024-08-18 20:50:35 : info: inside flight-service
+2024-08-18 20:50:35 : info: inside airplane controller
+2024-08-18 20:50:35 : info: inside flight controller
+2024-08-18 20:57:41 : info: inside airport-service
+2024-08-18 20:57:41 : info: inside flight-service
+2024-08-18 20:57:41 : info: inside airplane controller
+2024-08-18 20:57:41 : info: inside flight controller
+2024-08-18 20:58:44 : info: inside airport-service
+2024-08-18 20:58:44 : info: inside flight-service
+2024-08-18 20:58:44 : info: inside airplane controller
+2024-08-18 20:58:44 : info: inside flight controller
+2024-08-18 21:01:15 : info: inside airport-service
+2024-08-18 21:01:15 : info: inside flight-service
+2024-08-18 21:01:15 : info: inside airplane controller
+2024-08-18 21:01:15 : info: inside flight controller
+2024-08-18 21:03:22 : info: inside airport-service
+2024-08-18 21:03:22 : info: inside flight-service
+2024-08-18 21:03:22 : info: inside airplane controller
+2024-08-18 21:03:22 : info: inside flight controller
+2024-08-18 21:04:32 : info: inside airport-service
+2024-08-18 21:04:32 : info: inside flight-service
+2024-08-18 21:04:32 : info: inside airplane controller
+2024-08-18 21:04:32 : info: inside flight controller
+2024-08-18 21:07:19 : info: inside airport-service
+2024-08-18 21:07:19 : info: inside flight-service
+2024-08-18 21:07:19 : info: inside airplane controller
+2024-08-18 21:07:19 : info: inside flight controller
+2024-08-18 21:09:36 : info: inside airport-service
+2024-08-18 21:09:36 : info: inside flight-service
+2024-08-18 21:09:36 : info: inside airplane controller
+2024-08-18 21:09:36 : info: inside flight controller
+2024-08-18 21:11:32 : info: inside airport-service
+2024-08-18 21:11:32 : info: inside flight-service
+2024-08-18 21:11:32 : info: inside airplane controller
+2024-08-18 21:11:32 : info: inside flight controller
+2024-08-18 21:13:52 : info: inside airport-service
+2024-08-18 21:13:52 : info: inside flight-service
+2024-08-18 21:13:52 : info: inside airplane controller
+2024-08-18 21:13:52 : info: inside flight controller
+2024-08-18 21:15:03 : info: inside airport-service
+2024-08-18 21:15:03 : info: inside flight-service
+2024-08-18 21:15:03 : info: inside airplane controller
+2024-08-18 21:15:03 : info: inside flight controller
+2024-08-18 21:22:36 : info: inside airport-service
+2024-08-18 21:22:36 : info: inside flight-service
+2024-08-18 21:22:36 : info: inside airplane controller
+2024-08-18 21:22:36 : info: inside flight controller
+2024-08-18 21:22:59 : info: inside airport-service
+2024-08-18 21:22:59 : info: inside flight-service
+2024-08-18 21:22:59 : info: inside airplane controller
+2024-08-18 21:22:59 : info: inside flight controller
+2024-08-18 21:24:01 : info: inside airport-service
+2024-08-18 21:24:01 : info: inside flight-service
+2024-08-18 21:24:01 : info: inside airplane controller
+2024-08-18 21:24:01 : info: inside flight controller
+2024-08-18 21:26:08 : info: inside airport-service
+2024-08-18 21:26:08 : info: inside flight-service
+2024-08-18 21:26:08 : info: inside airplane controller
+2024-08-18 21:26:08 : info: inside flight controller
+2024-08-18 21:30:14 : info: inside airport-service
+2024-08-18 21:30:14 : info: inside flight-service
+2024-08-18 21:30:14 : info: inside airplane controller
+2024-08-18 21:30:14 : info: inside flight controller
+2024-08-18 21:31:54 : info: inside airport-service
+2024-08-18 21:31:54 : info: inside flight-service
+2024-08-18 21:31:54 : info: inside airplane controller
+2024-08-18 21:31:54 : info: inside flight controller
+2024-08-18 21:33:10 : info: inside airport-service
+2024-08-18 21:33:10 : info: inside flight-service
+2024-08-18 21:33:10 : info: inside airplane controller
+2024-08-18 21:33:10 : info: inside flight controller
+2024-08-18 21:34:02 : info: inside airport-service
+2024-08-18 21:34:02 : info: inside flight-service
+2024-08-18 21:34:02 : info: inside airplane controller
+2024-08-18 21:34:02 : info: inside flight controller
+2024-08-18 21:53:27 : info: inside airport-service
+2024-08-18 21:53:27 : info: inside flight-service
+2024-08-18 21:53:27 : info: inside airplane controller
+2024-08-18 21:53:27 : info: inside flight controller
+2024-08-18 21:53:44 : info: inside airport-service
+2024-08-18 21:53:44 : info: inside flight-service
+2024-08-18 21:53:44 : info: inside airplane controller
+2024-08-18 21:53:44 : info: inside flight controller
+2024-08-18 21:54:39 : info: inside airport-service
+2024-08-18 21:54:39 : info: inside flight-service
+2024-08-18 21:54:39 : info: inside airplane controller
+2024-08-18 21:54:39 : info: inside flight controller
+2024-08-18 21:54:53 : info: inside airport-service
+2024-08-18 21:54:53 : info: inside flight-service
+2024-08-18 21:54:53 : info: inside airplane controller
+2024-08-18 21:54:53 : info: inside flight controller
+2024-08-18 21:55:14 : info: inside airport-service
+2024-08-18 21:55:14 : info: inside flight-service
+2024-08-18 21:55:14 : info: inside airplane controller
+2024-08-18 21:55:14 : info: inside flight controller
+2024-08-18 21:57:13 : info: inside airport-service
+2024-08-18 21:57:13 : info: inside flight-service
+2024-08-18 21:57:13 : info: inside airplane controller
+2024-08-18 21:57:13 : info: inside flight controller
+2024-08-18 21:59:23 : info: inside airport-service
+2024-08-18 21:59:23 : info: inside flight-service
+2024-08-18 21:59:23 : info: inside airplane controller
+2024-08-18 21:59:23 : info: inside flight controller
+2024-08-18 22:00:14 : info: inside airport-service
+2024-08-18 22:00:14 : info: inside flight-service
+2024-08-18 22:00:14 : info: inside airplane controller
+2024-08-18 22:00:14 : info: inside flight controller
+2024-08-19 10:06:10 : info: inside airport-service
+2024-08-19 10:06:10 : info: inside flight-service
+2024-08-19 10:06:10 : info: inside airplane controller
+2024-08-19 10:06:10 : info: inside flight controller
+2024-08-19 10:24:22 : info: inside airport-service
+2024-08-19 10:24:22 : info: inside flight-service
+2024-08-19 10:24:22 : info: inside airplane controller
+2024-08-19 10:24:22 : info: inside flight controller
+2024-08-19 10:28:10 : info: inside airport-service
+2024-08-19 10:28:10 : info: inside flight-service
+2024-08-19 10:28:10 : info: inside airplane controller
+2024-08-19 10:28:10 : info: inside flight controller
+2024-08-19 10:28:50 : info: inside airport-service
+2024-08-19 10:28:50 : info: inside flight-service
+2024-08-19 10:28:50 : info: inside airplane controller
+2024-08-19 10:28:50 : info: inside flight controller
+2024-08-19 10:31:58 : info: inside airport-service
+2024-08-19 10:31:58 : info: inside flight-service
+2024-08-19 10:31:58 : info: inside airplane controller
+2024-08-19 10:31:58 : info: inside flight controller
+2024-08-19 10:39:40 : info: inside airport-service
+2024-08-19 10:39:40 : info: inside flight-service
+2024-08-19 10:39:40 : info: inside airplane controller
+2024-08-19 10:39:40 : info: inside flight controller
+2024-08-19 10:40:51 : info: inside airport-service
+2024-08-19 10:40:51 : info: inside flight-service
+2024-08-19 10:40:51 : info: inside airplane controller
+2024-08-19 10:40:51 : info: inside flight controller
+2024-08-19 10:41:29 : info: inside airport-service
+2024-08-19 10:41:29 : info: inside flight-service
+2024-08-19 10:41:29 : info: inside airplane controller
+2024-08-19 10:41:29 : info: inside flight controller
+2024-08-19 10:42:03 : info: inside airport-service
+2024-08-19 10:42:03 : info: inside flight-service
+2024-08-19 10:42:03 : info: inside airplane controller
+2024-08-19 10:42:03 : info: inside flight controller
+2024-08-19 10:43:30 : info: inside airport-service
+2024-08-19 10:43:30 : info: inside flight-service
+2024-08-19 10:43:30 : info: inside airplane controller
+2024-08-19 10:43:30 : info: inside flight controller
+2024-08-19 10:47:11 : info: inside airport-service
+2024-08-19 10:47:11 : info: inside flight-service
+2024-08-19 10:47:11 : info: inside airplane controller
+2024-08-19 10:47:11 : info: inside flight controller
+2024-08-19 10:49:42 : info: inside airport-service
+2024-08-19 10:49:42 : info: inside flight-service
+2024-08-19 10:49:42 : info: inside airplane controller
+2024-08-19 10:49:42 : info: inside flight controller
+2024-08-19 10:49:44 : info: inside airport-service
+2024-08-19 10:49:44 : info: inside flight-service
+2024-08-19 10:49:44 : info: inside airplane controller
+2024-08-19 10:49:44 : info: inside flight controller
+2024-08-19 10:50:49 : info: inside airport-service
+2024-08-19 10:50:49 : info: inside flight-service
+2024-08-19 10:50:49 : info: inside airplane controller
+2024-08-19 10:50:49 : info: inside flight controller

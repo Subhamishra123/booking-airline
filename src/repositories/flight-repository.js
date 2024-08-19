@@ -8,6 +8,14 @@ class FlightRepository extends CrudRepository
     {
         super(flight)
     }
+    async getAllflights(filter,sortParams)
+    {
+        const response = await flight.findAll({
+            where:filter,
+            order:sortParams
+        })
+        return response
+    }
 }
 
 module.exports=FlightRepository

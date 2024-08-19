@@ -21,7 +21,8 @@ async function createFlight(request,response) {
 async function getAllFlights(request,response)
 {
     try {
-        const Flights = await FlightService.getAllFlights()
+        const Flights = await FlightService.getAllFlights(request.query)
+        SuccessResponse.data=Flights
         return response.status(httpStatusCode.Accepted).json({
             success:true,
             message:"API is live",
@@ -30,6 +31,7 @@ async function getAllFlights(request,response)
         })
     } catch (error) {
         logger.error(`something went wrong in getAllFlights function ${error}`)
+        ErrorResponse.error=error
         return response.status(httpStatusCode.InternalServerError).json({
             success:false,
             message:"API is having problems",
