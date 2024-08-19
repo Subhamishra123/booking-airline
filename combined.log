@@ -856,3 +856,39 @@ Validation error: Validation max on capacity failed
 2024-08-19 11:33:16 : info: inside flight-service
 2024-08-19 11:33:16 : info: inside airplane controller
 2024-08-19 11:33:16 : info: inside flight controller
+2024-08-19 11:41:29 : info: inside airport-service
+2024-08-19 11:41:29 : info: inside flight-service
+2024-08-19 11:41:29 : info: inside airplane controller
+2024-08-19 11:41:29 : info: inside flight controller
+2024-08-19 11:54:48 : info: inside airport-service
+2024-08-19 11:54:48 : info: inside flight-service
+2024-08-19 11:54:48 : info: inside airplane controller
+2024-08-19 11:54:48 : info: inside flight controller
+2024-08-19 11:55:33 : info: inside airport-service
+2024-08-19 11:55:33 : info: inside flight-service
+2024-08-19 11:55:33 : info: inside airplane controller
+2024-08-19 11:55:33 : info: inside flight controller
+2024-08-19 11:56:35 : info: inside airport-service
+2024-08-19 11:56:35 : info: inside flight-service
+2024-08-19 11:56:35 : info: inside airplane controller
+2024-08-19 11:56:35 : info: inside flight controller
+2024-08-19 16:07:50 : info: inside airport-service
+2024-08-19 16:07:50 : info: inside flight-service
+2024-08-19 16:07:50 : info: inside airplane controller
+2024-08-19 16:07:50 : info: inside flight controller
+2024-08-19 20:38:38 : info: inside airport-service
+2024-08-19 20:38:38 : info: inside flight-service
+2024-08-19 20:38:38 : info: inside airplane controller
+2024-08-19 20:38:38 : info: inside flight controller
+2024-08-19 20:40:55 : info: inside airport-service
+2024-08-19 20:40:55 : info: inside flight-service
+2024-08-19 20:40:55 : info: inside airplane controller
+2024-08-19 20:40:55 : info: inside flight controller
+2024-08-19 21:54:54 : info: inside airport-service
+2024-08-19 21:54:54 : info: inside flight-service
+2024-08-19 21:54:54 : info: inside airplane controller
+2024-08-19 21:54:54 : info: inside flight controller
+2024-08-19 22:12:15 : info: inside airport-service
+2024-08-19 22:12:15 : info: inside flight-service
+2024-08-19 22:12:15 : info: inside airplane controller
+2024-08-19 22:12:15 : info: inside flight controller

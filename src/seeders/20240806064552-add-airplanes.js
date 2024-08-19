@@ -12,7 +12,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-    await queryInterface.bulkInsert('Airplanes', [
+    /*await queryInterface.bulkInsert('Airplanes', [
       {
         modelNumber: 'airbus431',
         capacity: 300,
@@ -25,7 +25,7 @@ module.exports = {
         createdAt:new Date(),
         updatedAt:new Date()
       }
-    ]);
+    ]);*/
   },
 
   async down (queryInterface, Sequelize) {
@@ -35,6 +35,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-    await queryInterface.bulkDelete('Airplanes', {[Op.or]:[{modelNumber: 'airbus431'},{ modelNumber:'boeng$777'}]});
+    //await queryInterface.bulkDelete('Airplanes', {[Op.or]:[{modelNumber: 'airbus431'},{ modelNumber:'boeng$777'}]});
   }
 };

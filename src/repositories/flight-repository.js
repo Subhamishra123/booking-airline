@@ -1,6 +1,7 @@
 const { flight } = require('../models')
 const { Airplane } = require('../models')
 const { Airport } = require('../models')
+const { City } = require('../models')
 const { CrudRepository } = require('./crud-repository')
 
 class FlightRepository extends CrudRepository
@@ -16,15 +17,26 @@ class FlightRepository extends CrudRepository
             order:sortParams,
             include:[
                 {
-                    model:Airplane
+                    model:Airplane,
+                    required:true
                 },
                 {
                     model:Airport,
-                    as:'DepartureAirport'
+                    as:'DepartureAirport',
+                    required:true,
+                    include:{
+                        model:City,
+                        required:true
+                    }
                 },
                 {
                     model:Airport,
-                    as:'ArrivalAirport'
+                    as:'ArrivalAirport',
+                    required:true,
+                    include:{
+                        model:City,
+                        required:true
+                    }
                 }
             ]
         })
