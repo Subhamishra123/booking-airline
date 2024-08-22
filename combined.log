@@ -985,3 +985,65 @@ Validation error: Validation max on capacity failed
 2024-08-22 12:43:07 : info: inside flight-service
 2024-08-22 12:43:07 : info: inside airplane controller
 2024-08-22 12:43:07 : info: inside flight controller
+2024-08-22 12:49:15 : info: inside airport-service
+2024-08-22 12:49:15 : info: inside flight-service
+2024-08-22 12:49:15 : info: inside airplane controller
+2024-08-22 12:49:15 : info: inside flight controller
+2024-08-22 12:49:19 : error: something went wrong in updateFlight function TypeError: Class constructor QueryError cannot be invoked without 'new'
+2024-08-22 12:49:57 : info: inside airport-service
+2024-08-22 12:49:57 : info: inside flight-service
+2024-08-22 12:49:57 : info: inside airplane controller
+2024-08-22 12:49:57 : info: inside flight controller
+2024-08-22 12:50:00 : error: something went wrong in updateFlight function TypeError: db.Sequelize.query is not a function
+2024-08-22 12:51:31 : info: inside airport-service
+2024-08-22 12:51:31 : info: inside flight-service
+2024-08-22 12:51:31 : info: inside airplane controller
+2024-08-22 12:51:31 : info: inside flight controller
+2024-08-22 12:51:34 : error: something went wrong in updateFlight function ReferenceError: Sequelize is not defined
+2024-08-22 12:52:13 : info: inside airport-service
+2024-08-22 12:52:13 : info: inside flight-service
+2024-08-22 12:52:13 : info: inside airplane controller
+2024-08-22 12:52:13 : info: inside flight controller
+2024-08-22 12:54:32 : info: inside airport-service
+2024-08-22 12:54:32 : info: inside flight-service
+2024-08-22 12:54:32 : info: inside airplane controller
+2024-08-22 12:54:32 : info: inside flight controller
+2024-08-22 12:55:43 : info: inside airport-service
+2024-08-22 12:55:43 : info: inside flight-service
+2024-08-22 12:55:43 : info: inside airplane controller
+2024-08-22 12:55:43 : info: inside flight controller
+2024-08-22 12:57:14 : info: inside airport-service
+2024-08-22 12:57:14 : info: inside flight-service
+2024-08-22 12:57:14 : info: inside airplane controller
+2024-08-22 12:57:14 : info: inside flight controller
+2024-08-22 12:58:08 : info: inside airport-service
+2024-08-22 12:58:08 : info: inside flight-service
+2024-08-22 12:58:08 : info: inside airplane controller
+2024-08-22 12:58:08 : info: inside flight controller
+2024-08-22 12:58:49 : info: inside airport-service
+2024-08-22 12:58:49 : info: inside flight-service
+2024-08-22 12:58:49 : info: inside airplane controller
+2024-08-22 12:58:49 : info: inside flight controller
+2024-08-22 13:32:15 : info: inside getFlight(-)
+2024-08-22 13:42:15 : info: inside getFlight(-)
+2024-08-22 13:42:59 : info: inside getFlight(-)
+2024-08-22 13:50:49 : info: inside getFlight(-)
+2024-08-22 14:03:31 : info: inside getFlight(-)
+2024-08-22 14:03:31 : error: something went wrong in get function Error: Not able to find 
+2024-08-22 14:03:31 : error: something went wrong in getFlight function Error: Not able to find 
+2024-08-22 14:04:08 : info: inside getFlight(-)
+2024-08-22 14:04:08 : error: something went wrong in get function Error: Not able to find 
+2024-08-22 14:04:08 : error: something went wrong in getFlight function Error: Not able to find 
+2024-08-22 15:52:18 : info: inside getFlight(-)
+2024-08-22 15:52:18 : error: something went wrong in get function Error: Not able to find 
+2024-08-22 15:52:18 : error: something went wrong in getFlight function Error: Not able to find 
+2024-08-22 15:53:00 : info: inside getFlight(-)
+2024-08-22 15:55:56 : info: inside getFlight(-)
+2024-08-22 15:56:32 : info: inside getFlight(-)
+2024-08-22 15:58:01 : info: inside getFlight(-)
+2024-08-22 16:02:25 : info: inside getFlight(-)
+2024-08-22 16:19:06 : info: inside getFlight(-)
+2024-08-22 16:20:03 : info: inside getFlight(-)
+2024-08-22 16:20:35 : info: inside getFlight(-)
+2024-08-22 16:28:06 : info: inside getFlight(-)
+2024-08-22 16:33:55 : info: inside getFlight(-)
