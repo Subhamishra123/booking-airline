@@ -136,10 +136,21 @@ async function deleteFlight(id)
             throw new AppError(`something went wrong in deleteFlight function ${error}`,httpStatusCode.InternalServerError)
     }
 }
+
+async function updateSeats(data) {
+    try {
+        const response=repository.updateRemainingSeats(data.flightId,data.seats,data.dec)
+        return response
+    } catch (error) {
+        throw new AppError('Cannot update seats of flight',httpStatusCode.InternalServerError)
+    }
+    
+}
 module.exports={
     createFlight,
     getAllFlights,
     getFlight,
     updateFlight,
-    deleteFlight
+    deleteFlight,
+    updateSeats
 }

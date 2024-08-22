@@ -89,6 +89,34 @@ async function updateFlight(request,response) {
         })
     }
 }
+
+async function updateSeats(request,response)
+{
+    
+    try {
+        const flight = await FlightService.updateSeats({
+            flightId:request.params.id,
+            seats:request.body.seats,
+            dec:request.body.dec
+        })
+        return response.status(httpStatusCode.OK).json({
+            success:true,
+            message:"API is live",
+            error:{},
+            data:flight
+        })
+    } catch (error) {
+        
+        logger.error(`something went wrong in updateFlight function ${error}`)
+        return response.status(httpStatusCode.InternalServerError).json({
+            success:false,
+            message:"API is having problems",
+            error:error,
+            data:{}
+        })
+    }
+}
+
 async function deleteFlight(request,response) {
     try {
         const deletedFlight = await FlightService.deleteFlight(request.params.id)
@@ -114,5 +142,5 @@ module.exports={
     getAllFlights,
     getFlight,
     updateFlight,
-    deleteFlight
+    deleteFlight,updateSeats
 }

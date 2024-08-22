@@ -62,6 +62,24 @@ function validateCreateFlightRequest(request,response,next)
     next()
 }
 
+function validateupdateSeatsRequest(request,response,next)
+{
+    if(!request.body.seats)
+    {
+        ErrorResponse.error=new AppError(["seats not entered"],httpStatusCode.BadRequest)
+        logger.error('seats not entered')
+        return response.status(httpStatusCode.BadRequest).json(ErrorResponse)
+    }
+    if(!request.body.dec)
+    {
+        ErrorResponse.error=new AppError(["dec not entered"],httpStatusCode.BadRequest)
+        logger.error('dec not entered')
+        return response.status(httpStatusCode.BadRequest).json(ErrorResponse)
+    }
+    next()
+}
+
 module.exports={
-    validateCreateFlightRequest
+    validateCreateFlightRequest,
+    validateupdateSeatsRequest
 }
