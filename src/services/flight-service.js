@@ -105,6 +105,17 @@ async function getFlight(id) {
         throw new AppError(`something went wrong in getFlight function ${error}`,error.statusCode)
     }
 }
+async function getFlights() {
+    try {
+        logger.info('inside getFlights(-)')
+        const response = await repository.getAll()
+        
+        return response
+    } catch (error) {
+        logger.error(`something went wrong in getFlights function ${error}`)
+        throw new AppError(`something went wrong in getFlights function ${error}`,error.statusCode)
+    }
+}
 async function updateFlight(id,airport) {
     try {
         logger.info('inside updateFlight(-)')
@@ -152,5 +163,6 @@ module.exports={
     getFlight,
     updateFlight,
     deleteFlight,
-    updateSeats
+    updateSeats,
+    getFlights
 }

@@ -6,6 +6,7 @@ FlightRouter.post('/',FlightMiddleware.validateCreateFlightRequest,FlightControl
 FlightRouter.get('/',FlightController.getAllFlights)
 FlightRouter.get('/:id',FlightController.getFlight)
 FlightRouter.patch('/:id/seats',FlightMiddleware.validateupdateSeatsRequest,FlightController.updateSeats)
+
 module.exports={
     FlightRouter
 }

@@ -41,8 +41,12 @@ async function getAllFlights(request,response)
     }
 }
 async function getFlight(request,response) {
+    if(request.params.id==='all'){
+       return getFlights(request,response)
+    }
     try {
        const Flight = await FlightService.getFlight(request.params.id)
+
        return response.status(httpStatusCode.Accepted).json({
         success:true,
         message:"API is live",
@@ -137,10 +141,35 @@ async function deleteFlight(request,response) {
         })
     }
 }
+
+async function getFlights(request,response) {
+    
+    try {
+        const flights = await FlightService.getFlights()
+        return response.status(httpStatusCode.OK).json({
+            success:true,
+            message:"API is live",
+            error:{},
+            data:flights
+        })
+    } catch (error) {
+        logger.error(`something went wrong in getFlights function ${error}`)
+        console.log(error)
+        return response.status(httpStatusCode.InternalServerError).json({
+            success:false,
+            message:"API is having problems",
+            error:error,
+            data:{}
+        })
+    }
+}
+
+
 module.exports={
     createFlight,
     getAllFlights,
     getFlight,
     updateFlight,
-    deleteFlight,updateSeats
+    deleteFlight,updateSeats,
+    getFlights
 }

@@ -46,20 +46,27 @@ class FlightRepository extends CrudRepository
 
     async  updateRemainingSeats(flightId,seats,dec=true)
     {
-        //put a row lock in mysql for any kind of update we do
-        await db.sequelize.query(addRowLockonFlights(flightId))
-        const flightToBeUpdated = await flight.findByPk(flightId)
+        const transaction = await db.sequelize.transaction()
+        //'0'->inc seats,any other number dec seats
+        try {
+            //put a row lock in mysql for any kind of update we do
+            await db.sequelize.query(addRowLockonFlights(flightId))
+            const flightToBeUpdated = await flight.findByPk(flightId)
        
-        if(+dec)
-        {
-            const response=await flightToBeUpdated.decrement('totalSeats',{by:seats})
-            return response
+            if(+dec)
+            {
+                await flightToBeUpdated.decrement('totalSeats',{by:seats},{transaction:transaction})
+            }
+            else{
+                await flightToBeUpdated.increment('totalSeats',{by:seats},{transaction:transaction})
+            }
+            await transaction.commit()
+            return flightToBeUpdated
+        } catch (error) {
+            await transaction.rollback()
+            throw error
         }
-        else{
-            const response = await flightToBeUpdated.increment('totalSeats',{by:seats})
-            return response
-
-        }
+        //await transaction.commit()
     }
 }
 
